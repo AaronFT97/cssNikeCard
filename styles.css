@@ -1,0 +1,157 @@
+:root {
+  --mainColor: #E0CACC;
+  --secondaryColor: #C4B1B3;
+  --mainFont: "Outfit", sans-serif;
+}
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--mainFont);
+}
+
+body {
+  background-color: var(--mainColor);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 800px;
+  min-height: 400px;
+  background-color: #ffffff;
+  display: flex;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  background-color: #ffffff;
+  border-radius: 10px;
+
+}
+
+.text-container {
+    flex-grow: 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+img {
+  width: 100%;
+  padding: 5px;
+}
+
+.choose-size-span {
+  color: var(--mainColor);
+  font-weight: bold;
+  margin-left: 5%;
+  position: relative;
+  top: 1%;
+}
+
+.size-button-container {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  padding: 10px;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.choose-size-button {
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--mainColor);
+  background-color: #ffffff;
+  border: 3px solid var(--mainColor);
+}
+
+.product-description-span {
+  color: var(--secondaryColor);
+  letter-spacing: 0.05rem;
+  font-weight: 600;
+  font-size: 1rem;
+  position: relative;
+  top: 5%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: black;
+  margin-top: 1rem;
+}
+
+.price-span {
+  color: var(--secondaryColor);
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.main-paragraph {
+  font-size: 1.2rem;
+  color: black;
+  text-align: justify;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 3px;
+}
+
+.add-to-cart-btn {
+  padding: 5px;
+  flex-grow: 1;
+  background-color: var(--mainColor);
+  color: white;
+  font-weight: 400;
+  border-radius: 3px;
+  border: none;
+}
+
+.thumbs-up-btn {
+  padding: 5px;
+  flex-grow: 1;
+  background-color: var(--mainColor);
+  color: white;
+  font-weight: 400;
+  border-radius: 3px;
+  border: none;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  body {
+    height: auto;
+  }
+  
+  .card {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  
+  
+}
+
+
