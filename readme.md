@@ -2,8 +2,8 @@
 
 This is my first little project using new CSS skills I learned along the way. It's definitely not a perfect layout, but it gave me a better grasp of concepts like CSS Flexbox and media queries. 
 
-![Mobile and Desktop Design](https://imgur.com/a/UPcCfsL)
-
+![Mobile Design](/design/mobile-design.png)
+![Desktop Design](/design/desktop-design.png)
 ### Challenges
 
 Throughout this project, I worked through several CSS challenges:
